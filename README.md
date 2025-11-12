@@ -1,6 +1,8 @@
 # maya-_rename_tool
 This Maya UI grabs the selected objects and names them based on the specifications of the department and type.
 
+# How it works
+It uses a nameing convention used at my school studio x based on the lower naming convention.
 It works with type_name_descriptor_subsubtype_grp
 
 type: is the type of selection you grabbed, geo, lighting department, or control group.
@@ -13,3 +15,8 @@ descriptor: What is for, character object, environment, or prop
 subtype: sometimes in lighting or rigging, you need to describe the position (left, right, up, etc.)
 
 group: is only added if what you are renaming is a group.
+
+# The problem
+
+Make naming convention clean up faster and standarized for maya artists (and myself).
+
